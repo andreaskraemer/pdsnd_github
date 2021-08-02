@@ -221,7 +221,7 @@ def main():
         df = load_data(city, month, day)
         
         # display_raw_data (if requested by the user)
-        display_raw_data(df)
+        # display_raw_data(df)
         
         # calculate statistics
         if len(df.index) > 0:
