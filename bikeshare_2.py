@@ -221,12 +221,14 @@ def main():
         df = load_data(city, month, day)
         
         # display_raw_data (if requested by the user)
+        # AK: deactivated to improve usability
         # display_raw_data(df)
         
         # calculate statistics
         if len(df.index) > 0:
             time_stats(df)
-            station_stats(df)
+            # AK: deactivated to improve performance
+            # station_stats(df)
             trip_duration_stats(df)
             user_stats(df)
         
