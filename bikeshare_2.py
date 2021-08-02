@@ -10,7 +10,7 @@ WEEK_DAY_LIST = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturd
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to specify a city, month, and day to analyze bykeshare data
 
     Returns:
         (str) city - first character of the name of the city to analyze, i.e c=chicago, n=new york city or w=washington
